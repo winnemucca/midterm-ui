@@ -1,0 +1,54 @@
+.containment{
+/*background-color: black;*/
+display: -webkit-inline-box;
+
+margin: 50px 100px;
+text-align: center;
+}
+
+.containment img{
+	width: 80%;
+	height: 80%;
+}
+
+
+
+.blueBox{
+height: 200px;
+width: 0px;
+background-color: blue;
+/*position: absolute;*/
+}
+
+.blueBoxTwo{
+height: 200px;
+width: 0px;
+background-color: blue;
+/*position: absolute;*/
+}
+
+
+
+.animalIconFinder{
+height: 200px;
+width: 200px;
+background-color: red;
+position: relative;
+
+}
+
+.humanIconFinder{
+height: 200px;
+width: 200px;
+background-color: green;
+position: relative;
+
+}
+
+
+.ui-draggable{
+	width: 150px;
+	height: 150px;
+	padding: 0.5em; 
+	position: absolute;
+}

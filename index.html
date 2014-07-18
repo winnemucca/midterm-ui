@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>userSoundscape</title>
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+
+
+<!-- 	this is the image the user drags to.  will eventually pull from the  carousel -->	
+
+<!-- carousel
+ -->
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-8">
+
+			<div id="myCarousel" class="carousel slides" data-ride="carousel">
+		<!-- 		indicators
+		 -->		<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"> </li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+
+
+				 </ol>
+		<!-- 		 	wrapper for the carousel
+		 -->
+				<div class="carousel-inner">
+				 	<!-- image-->
+					 	<div class="item active userSoundScape">
+					 		<img src="http://visitlongmont.org/media/wysiwyg/RMNP2.jpg" style="width: 100%; display: block;"/>
+					 			<div class="container">
+					 				<div class="carousel-caption">
+					 					<!-- <h1>Picture title: RMNP </h1> -->
+					 					<p>A description of my image</p>
+					 					<!-- <p> <a class="btn btn-large btn-primary"></a>Sign up</p> -->
+					 				</div>
+								</div>
+					 	</div>
+		<!-- 		 		next image
+		 -->
+					 	<div class="item userSoundScape" >
+					 		<img src="http://cdn.colorado.com/sites/colorado.com/master/files/styles/media-player-large/public/GJ3_CONationalMonument_.jpg"/>
+					 			<div class="container">
+					 				<div class="carousel-caption">
+					 					<h1>Picture title: The Monument </h1>
+					 					<!-- <p>A description of my image</p>
+					 					<p> <a class="btn btn-large btn-primary"></a>Sign up</p> -->
+					 				</div>
+								</div>
+					 	</div>
+				 	<!--next image-->
+
+						 	<div class="item userSoundScape">
+						 		<img src="http://extras.mnginteractive.com/live/media/site36/2008/0110/20080110__20080113_T08_TR13TRAILMIX~p1.JPG"/>
+						 			<div class="container">
+						 				<div class="carousel-caption">
+						 					<h1>Picture title: Red Mountain Pass </h1>
+						 					<!-- <p>A description of my image</p> -->
+						 					<p> <a class="btn btn-large btn-primary"></a>Sign up</p>
+						 				</div>
+									</div>
+						 	</div>
+				</div>
+
+				 		<!-- controls-->
+				 		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+				 			<span class="glyphicon glyphicon-chevron-left"></span>
+				 		</a>
+
+				 		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				 			<span class="glyphicon glyphicon-chevron-right"></span>
+				 		</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+	<!-- below is the animal icon that I will mouseover to access images that I am trying to contain -->
+
+
+	<div class="containment"> 
+			<div class="animalIconFinder"><img class="draggableSound" src="http://www.clipartbest.com/cliparts/9c4/6rA/9c46rAocE.png"></div>
+			<div class="blueBox"><img class="draggableSound" src="http://www.clipartbest.com/cliparts/9c4/6rA/9c46rAocE.png"> </div>
+			<div class="blueBox"><img class="draggableSound" src="http://www.clker.com/cliparts/a/N/0/3/S/E/windy-hi.png"> </div>
+			<div class="blueBox draggableSound"><img class="draggableSound" src="http://www.awicons.com/free-icons/download/nature-icons/nature-icons-by-archigraphs/png/512/BusyBee_archigraphs.png"></div>
+	</div>
+
+	<!-- below is the human icons that I will  to access images that I am trying to contain -->
+
+
+	<div class="containment">
+		<div class="humanIconFinder"><img class="draggableSound" src="http://thumbs.dreamstime.com/x/active-human-logo-23556811.jpg" alt="humanicon"></div>
+
+	<!-- these are the sounds that i am trying to hide they are currently draggable -->
+		<div class="blueBoxTwo"><img class="draggableSound" src="http://www.oldtowncanoe.com/uploadedImages/Website_Library_Assets/Images/Products/Canoe_Images/Pack_green_angle_zoom.png"> </div>
+		<div class="blueBoxTwo"><img class="draggableSound" src="http://www.clipartbest.com/cliparts/9c4/6rA/9c46rAocE.png"> </div>
+		<div class="blueBoxTwo"><img class="draggableSound" src="http://www.awicons.com/free-icons/download/nature-icons/nature-icons-by-archigraphs/png/512/BusyBee_archigraphs.png"></div>
+	</div>
+
+
+	
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
